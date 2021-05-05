@@ -20,11 +20,17 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/a-bashtannik/asn1.git"
+        }
+    ],
     "require": {
         "php": ">=7.2|^8.0",
         "ext-gmp": "*",
-        "sop/asn1": "^4.0.0",
-        "sop/x501": "^0.6.1",
+        "sop/asn1": "*",
+        "sop/x501": "*",
         "sop/crypto-types": "^0.3.0",
         "sop/crypto-bridge": "^0.3.1",
         "sop/crypto-encoding": "^0.3.0"
